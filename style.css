@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+*::selection {
+    background: #7d2ae8;
+    color: #fff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e576a4;
+}
+.wrapper {
+    position: relative;
+    width: 800px;
+    height: 490px;
+    background: #fefefe;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ i {
+    font-size: 7.5em;
+    color: #7d2ae8;
+    border: 5px solid transparent;
+    outline: 3px solid #7d2ae8;
+    border-radius: 50%;
+}
+h2 {
+    font-size: 2em;
+    color: #e8639a;
+    margin: 15px 0;
+}
+.btn-group {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around; /* Use space-around or space-between */
+    margin-top: 15px;
+}
+
+button {
+    width: 150px;
+    height: inherit;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid #e82a80;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Adjust the colors for specific buttons if needed */
+button:nth-child(1), 
+button:nth-child(2), 
+button:nth-child(3), 
+button:nth-child(4) {
+    color: #06010c;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #e82a80; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+}
+
+
+img{ 
+   width: 550px; 
+   margin-top: -76.5px;
+}
+/* Define a class for the paragraph elements */
+.recommendation-paragraph {
+    font-size: 1em;
+    color: #333; /* Adjust the color as needed */
+    line-height: 1.5;
+    margin: 10px 1px;
+    text-align: center; /* Center-align the text within the paragraph */
+}
+
+/* Style the link within the paragraphs */
+.recommendation-paragraph a {
+    color: #e82a80; /* Adjust the color as needed */
+    text-decoration: none;
+    display: inline-block; /* Ensure the link respects the centering */
+}
+
+.recommendation-paragraph a:hover {
+    text-decoration: underline;
+}
+/* Center the h2 element */
+.recommendation-heading {
+    text-align: center; /* Center-align the text within the heading */
+    font-size: 2em; /* Optional: Adjust the font size */
+    margin: 20px 0; /* Optional: Adjust the margin */
+}
